@@ -123,7 +123,7 @@ function createMap() {
 
     var mapme = L.map('mapme', {
         center: [37.794594, -25.506134],
-        zoom: 2.25,
+        zoom: 2.5,
         layers: [streetMap, earthshakes, plateBoundary]
     });
 
